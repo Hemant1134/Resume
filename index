@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hemant Pal - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .resume-container {
+            max-width: 950px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 30px 40px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 4px;
+            color: #2c3e50;
+        }
+
+        .contact-info {
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 20px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 6px;
+            margin-top: 30px;
+            margin-bottom: 14px;
+            color: #2c3e50;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-bottom: 6px;
+            color: #34495e;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 0;
+            margin-bottom: 14px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .job-details {
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .skills-category {
+            margin-bottom: 18px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            background: #ecf0f1;
+            padding: 6px 14px;
+            border-radius: 4px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+        }
+
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media print {
+            body {
+                background: #fff;
+            }
+
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="resume-container">
+        <h1>Hemant Pal</h1>
+        <div class="contact-info">
+            Dehradun, Uttarakhand, India | hemantpal2004@gmail.com | +91-7895893557 | <a
+                href="https://linkedin.com/in/techie-hemant-pal" target="_blank">linkedin.com/in/techie-hemant-pal</a>
+        </div>
+
+        <h2>Professional Summary</h2>
+        <p>Senior Software Engineer with 3.6 years of extensive full-stack development expertise using React.js,
+            Next.js, Node.js, Express.js, PostgreSQL, and MongoDB. Experienced in delivering scalable, secure, and
+            high-performance solutions across Healthcare, HRMS, Payroll, Banking, and Manufacturing Automation domains.
+            Proven ability to lead teams, architect robust applications, and leverage AWS and Docker for cloud
+            deployments and CI/CD. Adept at various modern technologies and passionate about driving business impact
+            through technology innovation.</p>
+
+        <h2>Experience</h2>
+        <div class="job-title">Senior Software Engineer</div>
+        <div class="job-details">Tech Superiors Consulting, Gurgaon | Sep 2023 – Present</div>
+        <ul>
+            <li>Lead development and architecture for complex manufacturing automation and payroll management systems.
+            </li>
+            <li>Manage cloud infrastructure on AWS, orchestrate deployments using Docker and PM2.</li>
+            <li>Mentor team members, conduct code reviews ensuring high-quality deliverables and performance
+                optimization.</li>
+        </ul>
+
+        <div class="job-title">Associate Software Engineer</div>
+        <div class="job-details">Tech Superiors Consulting, Gurgaon | Feb 2022 – Sep 2023</div>
+        <ul>
+            <li>Developed and maintained feature-rich web and mobile applications using React.js, Next.js, Node.js, and
+                React Native.</li>
+            <li>Enhanced APIs with Express.js and PostgreSQL to optimize backend performance and scalability.</li>
+            <li>Conducted deployments on AWS EC2 and Lightsail, integrating CI/CD pipelines for faster releases.</li>
+        </ul>
+
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Dhartee Automation (Ongoing)</h3>
+            <div class="job-details">Apr 2025 – Present</div>
+            <p>Developing a manufacturing automation platform with core modules for
+                <a href="https://dhart-e.com/master/machinery" target="_blank" rel="noopener noreferrer">Machinery</a>,
+                <a href="https://dhart-e.com/master/tools" target="_blank" rel="noopener noreferrer">Tools</a>,
+                <a href="https://dhart-e.com/master/item-master" target="_blank" rel="noopener noreferrer">Item
+                    Master</a>,
+                <a href="https://dhart-e.com/master/products" target="_blank" rel="noopener noreferrer">Products</a>,
+                <a href="https://dhart-e.com/master/process" target="_blank" rel="noopener noreferrer">Process</a>,
+                <a href="https://dhart-e.com/master/quality-check" target="_blank" rel="noopener noreferrer">Quality
+                    Control</a>,
+                <a href="https://dhart-e.com/purchase/purchase-order" target="_blank" rel="noopener noreferrer">Purchase
+                    Order</a>,
+                <a href="https://dhart-e.com/purchase/delivery-schedule" target="_blank"
+                    rel="noopener noreferrer">Delivery Schedule</a>,
+                <a href="https://dhart-e.com/purchase/purchase-voucher" target="_blank"
+                    rel="noopener noreferrer">Purchase Voucher</a>.
+                Developed with React.js, Node.js, PostgreSQL, and AWS to improve manufacturing efficiency by 35%.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Payroll Management System</h3>
+            <div class="job-details">Jun 2025 – Aug 2025</div>
+            <p>Implemented automation for payroll including salary calculations, tax deductions, and payslip generation.
+                Utilized PostgreSQL for secure data management and Node.js APIs, reducing processing time by 40%.</p>
+        </div>
+
+        <div class="project">
+            <h3>HRMS Portal</h3>
+            <div class="job-details">Apr 2024 – Jan 2025</div>
+            <p>Built a comprehensive HRMS portal with React.js, Next.js, Node.js, and PostgreSQL. Features include
+                employee management, leave tracking, and compliance enhancements, boosting HR efficiency by 25%.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project Management System</h3>
+            <div class="job-details">Jul 2024 – Aug 2024</div>
+            <p>Designed and developed task tracking and collaboration tool with real-time updates using Socket.io.
+                Developed with React.js, Next.js, Node.js, Express.js, and PostgreSQL.</p>
+        </div>
+
+        <div class="project">
+            <h3>AIW Banking System</h3>
+            <div class="job-details">Jan 2024 – Mar 2024</div>
+            <p>Contributed to secure banking platform including IVR, video calling, reconciliation, and group chat
+                modules. Developed using React.js and Node.js, emphasizing security and seamless communication.</p>
+        </div>
+
+        <div class="project">
+            <h3>Background Verification Portal</h3>
+            <div class="job-details">Aug 2023 – Jan 2024</div>
+            <p>Automated background verification process leveraging Vue.js, Python (FastAPI), and PostgreSQL.
+                Efficiently managed document handling, status tracking, and automated reporting for high-volume
+                requests.</p>
+        </div>
+
+        <div class="project">
+            <h3>Redxup Healthcare Survey Project</h3>
+            <div class="job-details">May 2022 – Jul 2023</div>
+            <p>Developed software for disease data collection and analytics using React.js, Next.js, Node.js, and
+                PostgreSQL. Used responsive forms and data visualization tools to support public health research and
+                compliance.</p>
+        </div>
+
+        <h2>Education</h2>
+        <div class="job-title">Master of Computer Applications (MCA)</div>
+        <div class="job-details">Gurukul Kangri Deemed to be University, Haridwar | 2022</div>
+
+        <div class="job-title">Bachelor of Science (BSc)</div>
+        <div class="job-details">Hemwati Nandan Bahuguna Garhwal University, Srinagar, Uttarakhand | 2020</div>
+
+        <h2>Skills</h2>
+
+        <div class="skills-category"><strong>Frontend:</strong>
+            <ul class="skills-list">
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>Vue.js</li>
+                <li>React Native</li>
+                <li>JavaScript (ES6+)</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Bootstrap</li>
+                <li>jQuery</li>
+                <li>AJAX</li>
+            </ul>
+        </div>
+
+        <div class="skills-category"><strong>Backend:</strong>
+            <ul class="skills-list">
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Python (FastAPI)</li>
+                <li>Socket.io</li>
+                <li>REST API Development</li>
+            </ul>
+        </div>
+
+        <div class="skills-category"><strong>Databases:</strong>
+            <ul class="skills-list">
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+                <li>Redis</li>
+            </ul>
+        </div>
+
+        <div class="skills-category"><strong>DevOps & Cloud:</strong>
+            <ul class="skills-list">
+                <li>AWS EC2</li>
+                <li>AWS Lightsail</li>
+                <li>AWS S3</li>
+                <li>Nginx</li>
+                <li>Docker</li>
+                <li>PM2</li>
+                <li>CI/CD Pipelines</li>
+            </ul>
+        </div>
+
+        <div class="skills-category"><strong>Other:</strong>
+            <ul class="skills-list">
+                <li>Agile & Scrum</li>
+                <li>Version Control (Git, GitHub, Bitbucket)</li>
+                <li>Team Leadership</li>
+                <li>System Design</li>
+                <li>Performance Optimization</li>
+                <li>API Integration</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
